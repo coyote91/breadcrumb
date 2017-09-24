@@ -1,0 +1,415 @@
+
+
+li.step-process_inactive.step-process_closed > #step-process_step-1:before {
+    display: none;
+}
+
+.step-process_active > #step-process_step-3 {
+    background-color: #545759;
+}
+
+#step-process_step-2:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    border-left: 12px solid #FFF;
+    left: 0;
+}
+
+/*Step Nuevos*/
+
+.step-process_border-right.step-process_active {
+/* padding: 10px 30px 0 10px; */
+/* background: url("../images/stepProcess/flechaActivoInactivo.gif") no-repeat scroll 100% 0 rgba(0, 0, 0, 0); */
+/* border-right: 1px solid #A1A1A1;*/
+   background-color: #545759;
+   margin-right: 20px;
+}
+
+.step-process_border-right.step-process_active.step-process_for_2_steps {
+ width: 558px;
+}
+.step-process_border-right.step-process_for_2_steps{
+ width: 558px;
+}
+.step-process_border-right.laststep-process_active.step-process_for_2_steps{
+ background-color: #545759;
+}
+
+.step-process_border-right.step-process_active:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 11px solid #545759;
+    position: absolute;
+    top: -1px;
+    right: -11px;
+}
+
+.step-process_border-right.step-process_active:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    border-left: 12px solid #FFF;
+    left: 0;
+}
+
+.step-process_border-right.step-process_inactive:after {
+    border-left: 12px solid #EFEFEF;
+    left: 100%;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: -1px;
+    right: -11px
+}
+
+/*Inactividad, flecha segundo paso*/
+.step-process_border-right.step-process_inactive:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    border-left: 12px solid #FFF;
+    left: 0;
+}
+
+.step-process_border-right.step-process_active:first-child:before {
+    display: none;
+}
+
+.step-process_border-right.step-process_inactive-active:first-child:before {
+	display: none;
+}
+
+.step-process_border-right.step-process_inactive-active:first-child:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 11px solid #EFEFEF;
+    position: absolute;
+    top: -1px;
+    right: -11px;
+
+}
+
+/*Inactividad, flecha tercer paso*/
+.step-process_border-right:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    border-left: 12px solid #FFF;
+    left: 0;
+}
+
+
+
+.step-process_border-right.step-process_inactive {
+   /*padding: 10px 30px 0 10px;
+   background: url("../images/stepProcess/flechaInactivoInactivo.gif") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);*/
+   /*width: 32.0723684211%;*/
+   background-color: #EFEFEF;
+   padding: 12px 20px;
+      margin-right: 20px;
+
+}
+.step-process_border-right.step-process_inactive-active {
+   /*padding: 10px 30px 0 10px;
+   background: url("../images/stepProcess/flechaInactivoActivo.png") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);*/
+   /*width: 32.0723684211%;*/
+   background-color: #EFEFEF;
+   padding: 12px 20px;
+      margin-right: 20px;
+
+}
+
+.step-process_path > ul > li {
+    float: left;
+    height: 39px;
+   /* padding: 12px 20px;*/
+
+}
+
+.step-process_path > ul > li.step-process_active {
+   /* background: url("../images/stepProcess/fondoPasoActivo.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);*/
+   /*width: 40px;*/
+   /*height: 30px;*/
+}
+
+
+}
+.step-process_path > ul > li.step-process_inactive {
+    /*background: url("../images/stepProcess/fondoPasoInactivo.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);*/
+}
+.step-process_path > ul > li.step-process_inactive.step-process_closed {
+   /* width: 7%;*/
+}
+
+.step-process_text-in-icon{
+   color: #EFEFEF;
+   display: inline-block;
+   padding: 5px;
+   font-family:pfbeausanspro-light;
+   font-size:16px;
+}
+
+.step-process_text-in-icon-closed{
+   color: #545759;
+   display: inline-block;
+   padding: 5px;
+   font-family:pfbeausanspro-light;
+   font-size:16px;
+}
+
+
+/********************************************************************/
+/********************************************************************/
+
+
+
+
+.step-process_border-right_nosize {
+	background-color: #EFEFEF;
+	color: #00B8CB;
+	text-align: left;
+	font-family: pfbeausanspro-bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	padding:12px 20px;position:relative;
+}
+
+.step-process_border-right {
+	background-color: #EFEFEF;
+	color: #00B8CB;
+	text-align: left;
+	font-family: pfbeausanspro-bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	padding:12px 20px;position:relative;
+	width: 352px;
+	height: 34px;
+}
+
+.step-process_border-right_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_bullet-off_nosize {
+	background-color: #A1A1A1;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: pfbeausanspro-bold;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	border-radius:50%;float:left;margin-bottom:15px;padding:5px;vertical-align:middle;
+}
+
+.step-process_bullet-off {
+	background-color: #A1A1A1;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: pfbeausanspro-bold;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	border-radius:50%;float:left;margin-bottom:15px;padding:5px;vertical-align:middle;
+	width: 20px;
+	height: 20px;
+}
+
+.step-process_bullet-off_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_bullet-on_nosize {
+	background-color: #FFFFFF;
+	color: #545454;
+	text-align: center;
+	font-family: pfbeausanspro-bold;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	border-radius:100%;display:inline-block;float:left;margin-bottom:15px;padding:5px;vertical-align:middle;
+}
+
+.step-process_bullet-on {
+	background-color: #FFFFFF;
+	color: #545454;
+	text-align: center;
+	font-family: pfbeausanspro-bold;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	border-radius:100%;display:inline-block;float:left;margin-bottom:15px;padding:5px;vertical-align:middle;
+	width: 20px;
+	height: 20px;
+}
+
+.step-process_bullet-on_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_default_nosize {
+	text-align: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.step-process_default {
+	text-align: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.step-process_default_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_end-path_nosize {
+	background-color: #EFEFEF;
+	text-align: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	background:url('../images/stepProcess/fondoPasoActivo.gif') repeat-x scroll 0 0 rgba(0, 0, 0, 0);display:inline-block;overflow:hidden;
+}
+
+.step-process_end-path {
+	background-color: #EFEFEF;
+	text-align: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	background:url('../images/stepProcess/fondoPasoActivo.gif') repeat-x scroll 0 0 rgba(0, 0, 0, 0);display:inline-block;overflow:hidden;
+	width: 310px;
+}
+
+.step-process_end-path_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_path_nosize {
+	text-align: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	margin-bottom:35px;margin-top:30px;
+}
+
+.step-process_path {
+	text-align: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	margin-bottom:35px;margin-top:30px;
+	height: 25px;
+}
+
+.step-process_path_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_title_nosize {
+	color: #9FA0A0;
+	text-align: left;
+	font-family: pfbeausanspro-light;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	margin-bottom:20px;margin-top:30px;
+}
+
+.step-process_title {
+	color: #9FA0A0;
+	text-align: left;
+	font-family: pfbeausanspro-light;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	margin-bottom:20px;margin-top:30px;
+}
+
+.step-process_title_label {
+	float:left;
+	text-align: left;
+}
+
+.step-process_title-span_nosize {
+	color: #9FA0A0;
+	text-align: left;
+	font-family: pfbeausanspro-light;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.step-process_title-span {
+	color: #9FA0A0;
+	text-align: left;
+	font-family: pfbeausanspro-light;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	width: 100%;
+}
+
+.step-process_title-span_label {
+	float:left;
+	text-align: left;
+}

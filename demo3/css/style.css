@@ -1,0 +1,199 @@
+body, html {
+	background-color: #34344a;
+}
+
+.UploadProcess__container___xyAAl- {
+	width: 100%;
+	max-width: 1077px;
+	margin: 0 auto;
+}
+
+
+.ContentAnimator__content-animated___2fKZb- {
+	opacity: 1;
+}
+
+.ContentAnimator__content___2mk9w- {
+	transition: opacity .5s ease-in;
+}
+
+.UploadProcess__step-bar___2Ahg0- {
+	margin-top: 50px;
+}
+
+.StepBar__step-bar___1uq7c- {
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.StepBar__step___2jzln- {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.StepBar__step-current___1Llc-- .StepBar__step-circle___1MAKk- {
+	box-shadow: 0 0 7px 0 #ff3923;
+}
+
+.StepBar__step-completed___1PxD3- .StepBar__step-circle___1MAKk- {
+	background: #f55d4c;
+}
+
+.StepBar__step-circle___1MAKk- {
+	width: 16px;
+	height: 16px;
+	z-index: 2;
+	-ms-flex: 0 0 16px;
+	flex: 0 0 16px;
+	border-radius: 8px;
+	transition: all .3s ease-in;
+	transition-delay: .3s;
+}
+
+.StepBar__step-line___3v_H3- {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background-color: #4e4e61;
+}
+
+.StepBar__step-line-progress___2cXYI-.StepBar__progress-not-active___3vxkm- {
+	width: 0;
+}
+
+.StepBar__step-line-progress___2cXYI- {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background: #f55d4c;
+	transition: width .4s ease;
+}
+
+.StepBar__step-name___uKarv- {
+	position: absolute;
+	top: 25px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.StepBar__step___2jzln- {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.StepBar__step-waiting___1sYsb- .StepBar__step-circle___1MAKk- {
+	background: #4e4e61;
+}
+
+.StepBar__step-circle___1MAKk- {
+	width: 16px;
+	height: 16px;
+	z-index: 2;
+	-ms-flex: 0 0 16px;
+	flex: 0 0 16px;
+	border-radius: 8px;
+	transition: all .3s ease-in;
+	transition-delay: .3s;
+}
+
+.StepBar__step-line___3v_H3- {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background-color: #4e4e61;
+}
+
+.StepBar__step-line-progress___2cXYI-.StepBar__progress-not-active___3vxkm- {
+	width: 0;
+}
+
+.StepBar__step-line-progress___2cXYI- {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background: #f55d4c;
+	transition: width .4s ease;
+}
+
+.StepBar__step___2jzln-:not(:first-child):not(:last-child) .StepBar__step-name___uKarv- {
+	-webkit-transform: translateX(-33%);
+	transform: translateX(-33%);
+}
+
+.StepBar__step-name___uKarv- {
+	position: absolute;
+	top: 25px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.StepBar__step-bar___1uq7c- .StepBar__step___2jzln-:last-child {
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+}
+
+.StepBar__step___2jzln- {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+
+.StepBar__step-waiting___1sYsb- .StepBar__step-circle___1MAKk- {
+	background: #4e4e61;
+}
+
+
+.StepBar__step-circle___1MAKk- {
+	width: 16px;
+	height: 16px;
+	z-index: 2;
+	-ms-flex: 0 0 16px;
+	flex: 0 0 16px;
+	border-radius: 8px;
+	transition: all .3s ease-in;
+	transition-delay: .3s;
+}
+
+.StepBar__step___2jzln-:last-child .StepBar__step-name___uKarv- {
+	right: 0;
+}
+
+.StepBar__step-name___uKarv- {
+	position: absolute;
+	top: 25px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.StepBar__step-completed___1PxD3- .StepBar__step-circle___1MAKk- {
+	background: #f55d4c;
+}

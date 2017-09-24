@@ -1,0 +1,134 @@
+.cart-header-wrap {
+	width: 1000px;
+	margin: auto;
+	text-align: left;
+}
+
+.cart-page-header {
+	margin: 19px 0;
+	text-align: left;
+}
+
+.cart-steps, .cart-steps-noleft-marg {
+	clear: both;
+	height: 47px;
+	margin: 35px 0 0 45px;
+	position: relative;
+	width: 370px;
+}
+
+.cart-no-deco {
+	text-decoration: none !important;
+	color: #333;
+}
+
+.cart-step-1 {
+	left: 0;
+}
+
+.cart-step-wrap {
+	position: absolute;
+}
+
+.cart-step-line-active {
+	border-bottom: solid 2px #727272;
+}
+
+.cart-step-line-active, .cart-step-line-inactive {
+	width: 165px;
+	position: absolute;
+	top: 10px;
+	left: -20px;
+}
+
+.cart-step-complete {
+	height: 22px;
+	width: 22px;
+	border: none;
+	color: #BBB;
+	line-height: 22px;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+	text-align: center;
+	left: -28px;
+}
+
+.cart-step-active, .cart-step-complete {
+	background-color: #727272;
+}
+
+.cart-step-active, .cart-step-complete, .cart-step-inactive {
+	position: relative;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.cart-step-text-inactive {
+	color: #C5C5C5;
+	font-size: 13px;
+}
+
+.cart-step-text-active, .cart-step-text-inactive {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	left: -103px;
+	width: 170px;
+}
+
+.cart-step-2 {
+	margin-left: 170px;
+}
+
+.cart-step-line-inactive {
+	border-bottom: solid 2px #BBB;
+}
+
+.cart-step-line-active, .cart-step-line-inactive {
+	width: 165px;
+	position: absolute;
+	top: 10px;
+	left: -20px;
+}
+
+.cart-step-active {
+	height: 35px;
+	width: 35px;
+	color: #fff;
+	line-height: 35px;
+	-webkit-border-radius: 17.5px;
+	-moz-border-radius: 17.5px;
+	border-radius: 17.5px;
+	text-align: center;
+	top: -7px;
+	left: -37px;
+	background-color: #333;
+}
+
+.cart-step-text-active, .cart-step-text-inactive {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	left: -103px;
+	width: 170px;
+}
+
+.cart-step-3 {
+	margin-left: 340px;
+}
+
+.cart-step-inactive {
+	height: 20px;
+	width: 20px;
+	border: 1px solid #BBB;
+	background: #fff;
+	color: #BBB;
+	line-height: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	left: -30px;
+}
